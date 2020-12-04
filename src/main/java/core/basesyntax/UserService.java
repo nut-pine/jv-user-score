@@ -11,7 +11,7 @@ public class UserService {
         for (int i = 0; i < records.length; i++) {
             splitRecords = records[i].split(":");
             if (splitRecords[0].equals(email)) {
-                return score = Integer.parseInt(splitRecords[1]);
+                return Integer.parseInt(splitRecords[1]);
             }
         }
         if (score == 0) {
